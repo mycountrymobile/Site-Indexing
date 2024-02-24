@@ -1,0 +1,89 @@
+  @import url('./font.css');
+  
+  :root{
+      --text-gray:#3f4954;
+      --text-light:#686666da;
+      --midnight:#104f55;
+      --bg-color:#0f0f0f;
+      --white:#ffffff;
+      --sky: linear-gradient(to top, #c2cbfb 0%, #a6c1ee 100%);
+      --lexend:'Lexend',cursive;
+      --Anton:'Anton',cursive;
+      --Abel:'Abel',cursive;
+  }
+
+body {
+    font-family: var(--lexend);
+    background-color: #f4f4f4;
+    
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: var(--text-gray);
+    font-size:2.5rem;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th, tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+tbody td {
+    background-color: #fff;
+    color: #333;
+}
+
+td.download {
+    text-align: center;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+select, button,a {
+    padding: 8px;
+    font-size: 16px;
+}
+
+a.download-btn {
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}

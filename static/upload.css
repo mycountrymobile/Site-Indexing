@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body {
+  align-items: center;
+  justify-content: center;
+  background-image: url('./siteimage.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+section{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+.additional-text {
+    color: #444;
+    font-size: 24px;
+    margin: 40px;
+}
+
+.webcont {
+position: absolute;
+margin-top: 5rem;
+right: 2rem;
+top: 0;  
+}
+
+
+#confirmationDiv {
+    position: absolute;
+    border-radius: 7px;
+    padding: 2rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background: #b9d7c1;
+    margin-top: 10px;
+    width: 370px;
+    }
+    #acc label {
+        font-weight:bolder;
+        display: block;
+        font-size: 1.2rem;
+        font-family: var(--Abel);
+            color: aliceblue;
+        margin-bottom: 5px;
+        }
+
+    #acc #body-content {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 1rem;
+    }
+
+    #acc form {
+        padding: 5rem;
+        border-radius: 10px;
+        justify-content: center;
+        background: linear-gradient(40deg, rgba(12, 69, 125, 0.5) 50%, rgba(18, 77, 163, 0.4) 100%);
+        text-align: justify;
+        filter: drop-shadow(2px #44e91f);
+        backdrop-filter: blur(4px);
+  }
+  
+
+    #acc #form-account {
+    flex: 1;
+    margin-right: 20px;
+    height: 30rem;
+    }
+
+
+
+    #acc input[type="submit"] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: none;
+      cursor: pointer;
+      width: 150px;
+      height: 50px;
+      background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+      border-radius: 16px;
+      border: 1px solid #8F9092;
+      transition: all 0.2s ease;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #606060;
+      text-shadow: 0 1px #fff;
+    }
+
+    #acc input[type="submit"]:hover {
+      box-shadow: 0 4px 3px 1px rgba(82, 163, 118, 0.5), 0 6px 8px rgba(82, 163, 118, 0.5), 0 -2px 4px rgba(82, 163, 118, 0.5), 0 -6px 4px rgba(82, 163, 118, 0.5);
+    }
+
+ #acc input[type="submit"]:active {
+  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px rgba(82, 163, 118, 0.5), 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+ #acc input[type="submit"]:hover::focus {
+  box-shadow: 0 4px 3px 1px rgba(82, 163, 118, 0.5), 0 6px 8px #D6D7D9, 0 -4px 4px rgba(82, 163, 118, 0.5), 0 -6px 4px rgba(82, 163, 118, 0.5), inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+
+}
+    #file-upload {
+        padding: 1rem;
+        border: 1px solid #ccc;
+        width: 98%;
+        border-radius: 5px;
+        margin:1rem 0;
+    }
+    
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-family: var(--lexend);
+
+  border-radius: 5px;
+  font-size: 16px;
+} 
+    
+.button-63 {
+  align-items: center;
+      background-image: linear-gradient(144deg,#144556, #5aa4cd 50%,#1c4f78);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  margin: 0 auto;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 12%;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+  
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+    margin: 0 auto;
+  }
+}

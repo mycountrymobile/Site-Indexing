@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="icon" type="image/x-icon" href="{% static 'site.ico' %}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Upload</title>
+    <link rel="stylesheet" href="{% static 'upload.css' %}">
+</head>
+<body>
+    <section>
+        <section id="acc" class="formaccount">
+            <div id="body-content">
+                <div class="form-account">
+                    <form enctype="multipart/form-data" id="mainForm" method="POST">
+                        {% csrf_token %}
+                        <label for="project_name">Project Name:</label>
+                        <input type="text" name="project_name" id="project_name" required>
+                        
+                        <label for="upload">Choose a CSV File:</label>
+                        <input type="file" name="file" id="file-upload" accept=".csv" required>
+                        <input name="submit_form" type="submit" value="Submit">
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+        <a class="button-63" href="{% url 'view' %}">View</a>
+    </section>
+    
+</body>
+</html>
